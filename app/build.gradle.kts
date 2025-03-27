@@ -51,6 +51,9 @@ dependencies {
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
 
+    //SwipeRefreshLayout Kullanımı İçin
+    implementation("androidx.swiperefreshlayout:swiperefreshlayout:1.1.0")
+
     val nav_version = "2.7.7"
     // Navigation
     implementation("androidx.navigation:navigation-fragment-ktx:$nav_version")
@@ -76,4 +79,5 @@ dependencies {
 
     val glideVersion = "4.11.0"
     implementation ("com.github.bumptech.glide:glide:$glideVersion")
+
 }
